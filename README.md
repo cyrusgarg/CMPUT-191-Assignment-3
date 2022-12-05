@@ -24,6 +24,7 @@ We now have our fully clean tables that we will use to do our analysis on: ![ima
 
 ## 6. Bar Charts!
 Using a bar chart, we have found that the countries with differences greater than $1/kg relative to Canada are: Sweden, Latvia, Denmark, and Lithuania. Additionally, the countries with differences less than $0.5/kg relative to Canada are: Hungary, Ukraine, Pakistan and Belarus. You can see these differences in our bar chart below!
+
 ![image](https://user-images.githubusercontent.com/115324925/205746400-401e5f12-3200-49a0-9ae3-8aa6268384e9.png)
 
 
