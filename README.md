@@ -9,4 +9,10 @@ Our task was to create a purchasing power parity index for a good of our choice.
 Here we scraped out data from the source using beautiful soup and then cleaned the data into a table containing the countries and their prices per 1kg of flour. Here is a look at the table we have created: 
 ![image](https://user-images.githubusercontent.com/115324925/205714291-55218f0b-ff33-4d93-b6f5-45fe81fa5d73.png)
 
+## 2. Next, we had to factor in the local tax rates to our calculations!
+In this step, we found a csv file from https://www.kaggle.com/datasets/mathurinache/list-of-countries-by-tax-rates of local tax rates for which we will apply to the flour pricing to obtain the after-tax pricing for flour in each country. We then joined the table from step 1. Here is what the table looks like: ![image](https://user-images.githubusercontent.com/115324925/205717700-252e9920-e8c6-4fab-a82c-6d6b0fd5f7aa.png)
+
+## 3. We then had to find the exchange rates (by currency code) for each country in our analysis.
+We were able to find and scrape from an API to obtain a table of the exchange rates for each country and the currency codes used to define each currency. This is the API we used:https://api.exchangerate.host/latest. Because the exchange rates were in USD, we had to do some simple data manipulations to obtain a column converted into CAD. We then found scraped this table https://www.iban.com/currency-codes and after doing some cleaning, we joined the tables into one singular table containing country code, country, exchange rate in CAD and exchange rate in USD. Here is what that table looks like: ![image](https://user-images.githubusercontent.com/115324925/205718729-e83b5b20-e98c-40a7-83cd-b0e5c5d043ad.png)
+
 
