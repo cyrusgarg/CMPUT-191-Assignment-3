@@ -27,4 +27,13 @@ Using a bar chart, we have found that the countries with differences greater tha
 
 ![image](https://user-images.githubusercontent.com/115324925/205746400-401e5f12-3200-49a0-9ae3-8aa6268384e9.png)
 
+## 7. Scatter!
+Next, we scattered these differences against both wheat production and average temperature. We found a coefficient of correlation for price-production and price-temperature to be -0.257 and -0.275 respectively. Here are the scatterplots:
+![image](https://user-images.githubusercontent.com/115324925/205747763-c0e911fa-e56b-47c9-ade0-3602a18b2298.png)
+![image](https://user-images.githubusercontent.com/115324925/205747789-66e6bf74-1566-4914-a048-37f108961146.png)
+
+
+## 8. Conclusion
+Based on the scatterplots and the bar chart above, we would say that there is some correlation between the two external factors, (wheat production and temperature). This means that we have potentially found something interesting about our data, however, in order to properly examine whether or not this is a root cause of pricing inflation or deflation for flour, further analysis would be required. 
+
 
