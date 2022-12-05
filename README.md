@@ -19,3 +19,11 @@ We were able to find and scrape from an API to obtain a table of the exchange ra
 The two external factors that we chose to examine are temperature, and wheat production. In order to do our analysis, we scraped a table from https://listfist.com/list-of-countries-by-average-temperature which shows the average temperatures (in celcius) of each country between 1991 and 2020. We also did the same for our second external factor (wheat production) which came from https://en.wikipedia.org/wiki/International_wheat_production_statistics. We then joined all of our tables at this point which you can see here:
 ![image](https://user-images.githubusercontent.com/115324925/205745316-529356ae-1620-42f2-b99d-6fb0e20e16fc.png)
 
+## 5. More cleaning...
+We now have our fully clean tables that we will use to do our analysis on: ![image](https://user-images.githubusercontent.com/115324925/205745675-2ae18050-f3bd-4d3f-8642-ef1ca1d35e2e.png)
+
+## 6. Bar Charts!
+Using a bar chart, we have found that the countries with differences greater than $1/kg relative to Canada are: Sweden, Latvia, Denmark, and Lithuania. Additionally, the countries with differences less than $0.5/kg relative to Canada are: Hungary, Ukraine, Pakistan and Belarus. You can see these differences in our bar chart below!
+![image](https://user-images.githubusercontent.com/115324925/205746400-401e5f12-3200-49a0-9ae3-8aa6268384e9.png)
+
+
