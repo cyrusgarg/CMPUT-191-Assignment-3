@@ -6,5 +6,7 @@ Our task was to create a purchasing power parity index for a good of our choice.
 # These are the steps that we took in order to create our wheat pricing index!
 
 ## 1. Importing pricing data on the flour product into a table from 'https://www.globalproductprices.com/rankings/flour_prices/'
-Here we scraped out data from the source using beautiful soup and then cleaned the data into a table containing the countries and their prices per 1kg of flour.
+Here we scraped out data from the source using beautiful soup and then cleaned the data into a table containing the countries and their prices per 1kg of flour. Here is a look at the table we have created: 
+![image](https://user-images.githubusercontent.com/115324925/205714291-55218f0b-ff33-4d93-b6f5-45fe81fa5d73.png)
+
 
