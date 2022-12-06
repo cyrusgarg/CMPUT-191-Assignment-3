@@ -25,6 +25,7 @@ The two external factors that we chose to examine are temperature, and wheat pro
 ![image](https://user-images.githubusercontent.com/115324925/205745316-529356ae-1620-42f2-b99d-6fb0e20e16fc.png)
 
 ## 5. More cleaning...
+In this part, we first clean the GST column by taking only the first 3 elements of the string from each row. In that way, we get either the highest or standard GST for each country. After that, we get local prices in each country by multiplying their price in USD with conversion rates based on USD. To obtain CAD price excluding GST, we divided the local price with conversion rates based on CAD currency. To get the CAD price with gst, we stripped the '%' sign, divided by 100, added to 1 and multiplied with CAD price. After that, we dropped conversion rate columns. Lastly, in order to achieve a difference in price between Canada price and other countries' prices, we first get the Canadian price from the table and subtract it with the 'CAD Price(w/gst)' column.   
 We now have our fully clean tables that we will use to do our analysis on: 
 
 ![image](https://user-images.githubusercontent.com/115324925/205745675-2ae18050-f3bd-4d3f-8642-ef1ca1d35e2e.png)
@@ -42,4 +43,3 @@ Next, we scattered these differences against both wheat production and average t
 ## 8. Conclusion
 Based on the scatterplots and the bar chart above, we would say that there is some correlation between the two external factors, (wheat production and temperature). This means that we have potentially found something interesting about our data, however, in order to properly examine whether or not this is a root cause of pricing inflation or deflation for flour, further analysis would be required. For example, another potential factor could be politcal trade agreements like the United-States-Mexico-Canada Agreement (USMCA).
 
-theme : cayman
