@@ -12,6 +12,7 @@ Here we scraped out data from the source using beautiful soup and then cleaned t
 
 ## 2. Next, we had to factor in the local tax rates to our calculations!
 In this step, we found a csv file from https://www.kaggle.com/datasets/mathurinache/list-of-countries-by-tax-rates of local tax rates for which we will apply to the flour pricing to obtain the after-tax pricing for flour in each country. We then joined the table from step 1. Here is what the table looks like:
+
 ![image](https://user-images.githubusercontent.com/115324925/205717700-252e9920-e8c6-4fab-a82c-6d6b0fd5f7aa.png)
 
 ## 3. We then had to find the exchange rates (by currency code) for each country in our analysis.
