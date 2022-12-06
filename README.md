@@ -37,5 +37,3 @@ Next, we scattered these differences against both wheat production and average t
 
 ## 8. Conclusion
 Based on the scatterplots and the bar chart above, we would say that there is some correlation between the two external factors, (wheat production and temperature). This means that we have potentially found something interesting about our data, however, in order to properly examine whether or not this is a root cause of pricing inflation or deflation for flour, further analysis would be required. For example, another potential factor could be politcal trade agreements like the United-States-Mexico-Canada Agreement (USMCA).
-
-theme : cayman
